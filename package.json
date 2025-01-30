@@ -1,8 +1,27 @@
 {
+  "name": "excel-sheet-problem",
+  "version": "1.0.0",
+  "description": "automation of workflow",
+  "homepage": "https://github.com/shivamyeshu/AutomateXlsxSheet#readme",
+  "bugs": {
+    "url": "https://github.com/shivamyeshu/AutomateXlsxSheet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamyeshu/AutomateXlsxSheet.git"
+  },
+  "license": "ISC",
+  "author": "shivam",
+  "type": "commonjs",
+  "main": "generate_resumes.js",
+  "scripts": {
+    "start": "node generate_resumes.js"
+  },
   "dependencies": {
     "exceljs": "^4.4.0",
     "fs-extra": "^11.3.0",
     "handlebars": "^4.7.8",
     "puppeteer": "^24.1.1"
-  }
+  },
+  "devDependencies": {}
 }
