@@ -30,6 +30,7 @@ async function readExcel(filePath) {
 }
 
 // all changes are done now we will generate resumes according to the data in the excel sheet or format of the excel sheet !!!
+// like that we have to generate resumes for all the students in the excel sheet
 
 // Function to generate HTML from Handlebars template
 async function generateHTML(data) {
