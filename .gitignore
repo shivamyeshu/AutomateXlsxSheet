@@ -1,0 +1,4 @@
+node_modules/
+*.xlsx
+# Generated resumes (PDFs)
+resumes/
