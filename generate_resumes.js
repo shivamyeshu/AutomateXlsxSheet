@@ -3,6 +3,9 @@ const Handlebars = require("handlebars");
 const fs = require("fs-extra");
 const puppeteer = require("puppeteer");
 
+
+console.log("work has been started have some patience it will take some time to generate resumes");
+
 // Function to read Excel file
 async function readExcel(filePath) {
     const workbook = new ExcelJS.Workbook();
@@ -52,7 +55,7 @@ async function generateResumes() {
     for (const student of students) {
         const html = await generateHTML(student);
         await generatePDF(html, student.name.replace(/\s+/g, "_"));
-        console.log(`Generated resume for: ${student.name}`);
+        console.log("Generated resume for: "+ student.name);
     }
 
     console.log("All resumes generated successfully!");

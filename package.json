@@ -18,10 +18,10 @@
     "start": "node generate_resumes.js"
   },
   "dependencies": {
+    "excel-sheet-problem": "file:",
     "exceljs": "^4.4.0",
     "fs-extra": "^11.3.0",
     "handlebars": "^4.7.8",
     "puppeteer": "^24.1.1"
-  },
-  "devDependencies": {}
+  }
 }
