@@ -29,6 +29,8 @@ async function readExcel(filePath) {
     return students;
 }
 
+// all changes are done now we will generate resumes according to the data in the excel sheet or format of the excel sheet !!!
+
 // Function to generate HTML from Handlebars template
 async function generateHTML(data) {
     const templateSource = await fs.readFile("resume_template.hbs", "utf-8");
